@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo1</title>
+    <style>
+        #main{
+            height: 200px;
+            width: 500px;
+            background-color: rgb(220, 174, 113);
+        }
+        .div1{
+            height: 100px;
+            width: 500px;
+            background-color: aqua;
+        }
+        .sub{
+            height: 100px;
+            width: 250px;
+            background-color: gray;
+            float: left;
+        }
+        .div2{
+            height: 100px;
+            width: 250px;
+            background-color: darkcyan;
+            float: left;
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div class="div1">
+            <div class="sub"></div>
+            <div class="sub" style="background-color: beige;"></div>
+        </div>
+        <div class="div1" style="background-color: brown;">
+            <div class="div2"></div>
+            <div class="div2" style="background-color: blueviolet;"></div>
+        </div>
+    </div>
+</body>
+</html>

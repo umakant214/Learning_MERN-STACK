@@ -1,0 +1,48 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EnquiryForm</title>
+ </head>
+ <body>
+   <fieldset>
+      <legend>Enquiry Form</legend>
+   <form method="" action="">
+    <label>Name:</label>
+    <input type="text" pattern="[a-zA-Z ]{3,20}" required placeholder="Enter Name"/><br/>
+    <label>Mobno</label>
+    <input type="tel" title="enter the valid Mobno" pattern="[0-9]{10}" placeholder="Enter number"/>
+    <br/>
+    <label>Email</label>
+    <input type="email" placeholder="Enter Email"/><br/>
+    <button>Save</button>
+    <input type="submit"  value="Save"/><br/>
+    <input type="radio" name="Male"/>Male
+    <input type="radio" name="Male"/>Female
+    <br/>
+
+    <label>MSG</label>
+    <textarea></textarea>
+    <br/>
+
+    <label>Course</label>
+    <select>
+      <optgroup label="Frontend">
+         <option>---select course----</option>
+         <option>HTML</option>
+         <option>CSS</option>
+         <option>TAILWIND CSS</option>
+         <option>JAVASCRIPT</option>
+      </optgroup>
+       <optgroup label="Backend">
+         <option>Express JS</option>
+         <option>Node JS</option>
+         <option>JAVA</option>
+         <option>PHP</option>
+      </optgroup>
+    </select>
+    </form>
+    </fieldset>
+ </body>
+ </html>

@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.flexExample{
+    width: 1320px;
+    margin: auto;
+    display: flex;
+
+}
+.flexItem{
+    background-color: purple;
+    width: 500px;
+    color: wheat;
+    text-align: center;
+    margin: 10px;
+}
