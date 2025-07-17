@@ -2,6 +2,9 @@
   display: flex;
   width: 100%;
 }
+.search::placeholder {
+  color: white;
+}
 
 .content {
   flex: 1;
@@ -10,10 +13,19 @@
 }
 
 .sidebar {
-  width: 250px;
   min-height: 800px;
 }
 
 .post-card {
   margin: 15px;
+}
+.reactions {
+  width: 100%;
+}
+.createPost {
+  width: 80%;
+  margin: 30px;
+}
+.welcome-message {
+  margin-top: 20px;
 }

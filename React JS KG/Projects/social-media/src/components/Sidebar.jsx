@@ -3,7 +3,7 @@ const Sidebar = ({ selectedTab, setSelectedTab }) => {
     <>
       <div
         className="d-flex flex-column flex-shrink-0 p-3 text-bg-dark sidebar  "
-        style={{ width: "280px" }}
+        style={{ width: "200px" }}
       >
         {" "}
         <a
@@ -72,51 +72,6 @@ const Sidebar = ({ selectedTab, setSelectedTab }) => {
                 <use xlinkHref="#speedometer2"></use>
               </svg>
               Create Post
-            </a>{" "}
-          </li>{" "}
-          <li>
-            {" "}
-            <a href="#" className="nav-link text-white">
-              {" "}
-              <svg
-                className="bi pe-none me-2"
-                width="16"
-                height="16"
-                aria-hidden="true"
-              >
-                <use xlinkHref="#table"></use>
-              </svg>
-              Orders
-            </a>{" "}
-          </li>{" "}
-          <li>
-            {" "}
-            <a href="#" className="nav-link text-white">
-              {" "}
-              <svg
-                className="bi pe-none me-2"
-                width="16"
-                height="16"
-                aria-hidden="true"
-              >
-                <use xlinkHref="#grid"></use>
-              </svg>
-              Products
-            </a>{" "}
-          </li>{" "}
-          <li>
-            {" "}
-            <a href="#" className="nav-link text-white">
-              {" "}
-              <svg
-                className="bi pe-none me-2"
-                width="16"
-                height="16"
-                aria-hidden="true"
-              >
-                <use xlinkHref="#people-circle"></use>
-              </svg>
-              Customers
             </a>{" "}
           </li>{" "}
         </ul>{" "}

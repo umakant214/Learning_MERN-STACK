@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <>
-      <footer className="py-5">
+      <footer className="py-5 ms-4">
         {" "}
         <div className="row">
           {" "}
@@ -69,7 +69,7 @@ const Footer = () => {
               </li>{" "}
             </ul>{" "}
           </div>{" "}
-          <div className="col-6 col-md-2 mb-3">
+          <div className="col-6 col-md-1 mb-3">
             {" "}
             <h5>Section</h5>{" "}
             <ul className="nav flex-column">
