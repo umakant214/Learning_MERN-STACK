@@ -1,0 +1,24 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+#outer {
+  width: 1000px;
+  height: 400px;
+  background-color: #f0f2f5;
+  margin: auto;
+  display: flex;
+}
+.box1 {
+  height: 100%;
+  width: 50%;
+}
+.box2 {
+  height: 100%;
+  width: 50%;
+}
+.box1 h1 {
+  padding-left: 30px;
+  margin-top: 150px;
+  color: #1676f2;
+}

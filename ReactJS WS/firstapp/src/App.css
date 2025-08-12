@@ -1,0 +1,7 @@
+.main {
+  width: 100px;
+  height: 200px;
+  background-color: aquamarine;
+  border: 2px black;
+  border-radius: 5px;
+}
