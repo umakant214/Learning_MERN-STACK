@@ -3,14 +3,15 @@ import "./App.css";
 function App() {
   return (
     <>
-      <a href="#">About US</a>
-      <a href="#">Home</a>
-      <h1>Hello World </h1>
-      <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam
-        deserunt temporibus a in dolor? Quis laudantium, fuga enim facere totam,
-        tempore similique ullam asperiores aut magnam error, ea suscipit atque.
-      </p>
+      <img
+        class="img-thumbnail mb-3"
+        srcset="/docs/5.3/assets/img/examples/pricing.png, /docs/5.3/assets/img/examples/pricing@2x.png 2x"
+        src="/docs/5.3/assets/img/examples/pricing.png"
+        alt=""
+        width="480"
+        height="300"
+        loading="lazy"
+      ></img>
     </>
   );
 }
